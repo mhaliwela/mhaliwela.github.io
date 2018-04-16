@@ -1,5 +1,10 @@
-﻿body{
-            font-family:'Agency FB';
+﻿		@font-face {
+			font-family: agency-fb;
+			src: local(agency-fb), url('agency-fb.ttf') format('opentype');
+		}
+		
+		body{
+            font-family:agency-fb;
             background-color:#9a93ec;
             color:white;
             text-transform: uppercase;
@@ -45,6 +50,9 @@
             padding:0;
 
         }
+		h3{
+			margin:0;
+		}
         
         #scores, #options{
             margin:0 auto;
@@ -68,24 +76,32 @@
             background-color:#4d4dff;
         }
 
-	.finscore{
+		.finscore{
             background-color:#4800a5;
         }
 
         #underline{
             width:100%;
-            margin-top:34vw;
-            height:3vw;
+            margin-top:1vw;
             float:left;
-            position:absolute;
-            z-index:-1;
+            /*position:absolute; */
+            z-index:-1;		
         }
+		
         input, #Difficulty{
             width:6vw;
-            font-family:'Agency FB';
+            font-family:agency-fb;
             font-size:1.2vw;
             background-color:none;
             font-weight: bold;
             text-align:center;
             
+        }
+		#bottomText{
+			width:50%;
+			margin-left:19%;
+			text-align:center;
+			padding-top:1vw;
+			padding-bottom:1vw;
+			font-weight: bold;
         }
