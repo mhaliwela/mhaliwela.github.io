@@ -774,7 +774,7 @@ app.controller("cubegame", function ($scope) {
         ctx.fillText("-MICHAEL HALIWELA 2016-", c.width / 2, c.height / 2 + 60);
 
         ctx.font = "40px agency-fb";
-        ctx.fillText("<-- ENTER YOUR NAME & PRESS SUBMIT (CHANGE SETTINGS IS OPTIONAL)", c.width / 2, c.height - 200);
+        ctx.fillText("<-- ENTER YOUR NAME @ 'New Player' & PRESS SUBMIT (CHANGE SETTINGS IS OPTIONAL)", c.width / 2, c.height - 200);
         ctx.fillText("-PRESS SPACEBAR TO JUMP-", c.width / 2, c.height - 100);
         ctx.restore();
     };
