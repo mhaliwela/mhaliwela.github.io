@@ -1,0 +1,91 @@
+﻿body{
+            font-family:'Agency FB';
+            background-color:#9a93ec;
+            color:white;
+            text-transform: uppercase;
+        }
+
+        #container{
+            width:100%;
+            height:100%;
+	    margin:0 auto;
+        }
+
+        #settings, #highscores{
+            float:left;
+            margin-left:1vw;
+        }
+
+        #myCanvas {
+            float: left;
+            margin-left: 1vw;
+            border-width: 1px;
+            border-style: solid;
+            border-color: Black;
+            width:50%;
+            height:50%;
+        }
+
+        h1{
+ 
+            color:white;
+            text-align:center;
+            font-weight: bold;
+            text-decoration:underline;
+            font-size:4vw;
+            margin:0;
+           
+        }
+
+        h2{
+            text-align:center;
+            margin:0;
+            margin-bottom:1vw;
+            font-size:2.5vw;
+            padding:0;
+
+        }
+        
+        #scores, #options{
+            margin:0 auto;
+            text-align:center;
+            background-color:#0052a5;
+            font-size:1.2vw;
+        }
+
+        td,th{
+            padding:0.3vw;
+            padding-left:1.2vw;
+            padding-right:1.2vw;
+            border:1px solid #ffffff;
+        }
+
+        th, h1, h2, #underline {
+            background-color:#400080;
+        }
+
+        .names{
+            background-color:#4d4dff;
+        }
+
+	.finscore{
+            background-color:#4800a5;
+        }
+
+        #underline{
+            width:100%;
+            margin-top:34vw;
+            height:3vw;
+            float:left;
+            position:absolute;
+            z-index:-1;
+        }
+        input, #Difficulty{
+            width:6vw;
+            font-family:'Agency FB';
+            font-size:1.2vw;
+            background-color:none;
+            font-weight: bold;
+            text-align:center;
+            
+        }
