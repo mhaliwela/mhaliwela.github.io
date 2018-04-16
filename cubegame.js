@@ -150,13 +150,13 @@ app.controller("cubegame", function ($scope) {
         
         ctx.fillStyle = "white";
         ctx.textAlign = 'center';
-        ctx.font = "130px Agency FB";
+        ctx.font = "130px agency-fb";
         ctx.fillText("GAME OVER", c.width / 2, c.height/2);
 
-        ctx.font = "60px Agency FB";
+        ctx.font = "60px agency-fb";
         ctx.fillText("FINAL SCORE:" + score, c.width / 2, c.height / 2 + 60);
 
-        ctx.font = "40px Agency FB";
+        ctx.font = "40px agency-fb";
         ctx.fillText("<-- CHANGE SETTINGS OR PRESS 'Z' FOR RESET", c.width / 2, c.height - 200);
         ctx.restore();
     };
@@ -467,10 +467,10 @@ app.controller("cubegame", function ($scope) {
             
         }
         ctx.save();
-        ctx.font = "30px Agency FB";
+        ctx.font = "30px agency-fb";
         ctx.fillStyle = "white";
         ctx.fillText("LEVEL SEED:" + seed + " - SCORE:" + score, 10, 40);
-        ctx.font = "30px Agency FB";
+        ctx.font = "30px agency-fb";
         ctx.textAlign = 'center';
         ctx.fillText("MICHAEL HALIWELA - 2016", c.width/2, c.height-10);
         ctx.restore();
@@ -767,13 +767,13 @@ app.controller("cubegame", function ($scope) {
 
         ctx.fillStyle = "white";
         ctx.textAlign = 'center';
-        ctx.font = "130px Agency FB";
+        ctx.font = "130px agency-fb";
         ctx.fillText("CUBE-GAME-3000", c.width / 2, c.height / 2);
 
-        ctx.font = "50px Agency FB";
+        ctx.font = "50px agency-fb";
         ctx.fillText("-MICHAEL HALIWELA 2016-", c.width / 2, c.height / 2 + 60);
 
-        ctx.font = "40px Agency FB";
+        ctx.font = "40px agency-fb";
         ctx.fillText("<-- ENTER YOUR NAME & PRESS SUBMIT (CHANGE SETTINGS IS OPTIONAL)", c.width / 2, c.height - 200);
         ctx.fillText("-PRESS SPACEBAR TO JUMP-", c.width / 2, c.height - 100);
         ctx.restore();
